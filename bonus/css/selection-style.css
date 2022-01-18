@@ -11,12 +11,12 @@ a {
 	display: inline-block;
 	background-color: white;
 	background-image: url('../img/layout-wp-struttura.jpg');
+	opacity: .6;
 	height: 300px;
 	width: 300px;
 	background-size: 300px;
 	background-repeat: no-repeat;
 	background-position: center;
-	border: 0 solid;
 	border-radius: 30px;
 	color: red;
 	text-decoration: none;
@@ -25,18 +25,19 @@ a {
 }
 
 a:first-child {
-	left: 30%;
+	left: 35%;
 	transform: translate(-50%, -50%);
 }
 
 a:last-child {
-	right: 30%;
+	right: 35%;
 	transform: translate(50%, -50%);
 }
 
 a:hover {
 	height: 400px;
 	width: 400px;
+	opacity: 1;
 }
 
 a:last-child:hover {
@@ -52,4 +53,8 @@ span {
 	left: 50%;
 	transform: translate(-50%, -50%);
 	text-align: center;
+}
+
+[href="pages/fixed.html"]:hover>span {
+	top:35%
 }
