@@ -1,0 +1,55 @@
+html {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+	background-color: lightgrey;
+}
+
+
+a {
+	display: inline-block;
+	background-color: white;
+	background-image: url('../img/layout-wp-struttura.jpg');
+	height: 300px;
+	width: 300px;
+	background-size: 300px;
+	background-repeat: no-repeat;
+	background-position: center;
+	border: 0 solid;
+	border-radius: 30px;
+	color: red;
+	text-decoration: none;
+	position: absolute;
+	top: 50%;
+}
+
+a:first-child {
+	left: 30%;
+	transform: translate(-50%, -50%);
+}
+
+a:last-child {
+	right: 30%;
+	transform: translate(50%, -50%);
+}
+
+a:hover {
+	height: 400px;
+	width: 400px;
+}
+
+a:last-child:hover {
+	background-size: cover;
+}
+
+span {
+	width: 200px;
+	font-size: 20px;
+	font-weight: 600;
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}

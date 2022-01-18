@@ -5,27 +5,27 @@
 }
 
 .main-header, main, footer {
-	max-width: 70%;
+	width: 700px;
 	margin: 0 auto;
 }
 
 .main-header, .gold, .blue {
-	margin-top: 2vh;
+	margin-top: 20px;
 }
 .main-header {
 	background-color: violet;
-	height: 10vh;
-	margin-top: 2vh;
+	height: 80px;
+	margin-top: 20px;
 }
 
 .gold {
 	background-color: #e1d67a;
-	height: 30vh;
+	height: 300px;
 }
 
 .blue {
 	background-color: dodgerblue;
-	height: 45vh;
+	height: 400px;
 }
 
 .opaque {
@@ -33,13 +33,13 @@
 }
 
 .blue>header {
-	height: 6vh;
+	height: 60px;
 }
 
 .container {
-	height: 35vh;
-	margin-top: 2vh;
-	margin-bottom: 2vh;
+	height: 310px;
+	margin-top: 15px;
+	margin-bottom: 15px;
 }
 
 .container::after { /* clearfix*/
@@ -58,12 +58,13 @@
 }
 
 .content {
-	width: calc(60% - 2*1.5vh);
-	margin: 0 1.5vh;
+	width: calc(60% - 2*10px);
+	margin: 0 10px;
 }
 
 footer {
 	background-color: rebeccapurple;
-	height: 4vh;
-	margin-top: 0.5vh;
+	height: 40px;
+	margin-top: 5px;
+	margin-bottom: 20px;
 }
