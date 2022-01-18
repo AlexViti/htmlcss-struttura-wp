@@ -3,3 +3,18 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+
+.main-header, main {
+	width: 700px;
+	margin: 20px auto;
+}
+
+.main-header {
+	background-color: violet;
+	height: 80px;
+}
+
+.gold {
+	height: 300px;
+	background-color: #e1d67a;
+}
